@@ -27,7 +27,7 @@ bun install
 
 # Copiar variables de entorno
 cp .env.example .env.local
-# Editar .env.local con tu NEXT_PUBLIC_SUPABASE_URL y NEXT_PUBLIC_SUPABASE_ANON_KEY
+# Editar .env.local con tu NEXT_PUBLIC_SUPABASE_URL y NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
 ```
 
 ### Supabase
@@ -36,7 +36,7 @@ cp .env.example .env.local
 2. En el dashboard: **SQL Editor** → crea una nueva query
 3. Copia el contenido de `supabase/migrations/20250220000000_initial_schema.sql` y ejecútalo
 4. Ejecuta también `supabase/seed.sql` para cargar contenido de ejemplo
-5. En **Settings → API** copia la URL y la anon key a tu `.env.local`
+5. En **Settings → API** (o API Keys) copia la URL y la **publishable key** (`sb_publishable_...`) a tu `.env.local`
 
 ### Desarrollo
 
@@ -49,7 +49,7 @@ Abre [http://localhost:3000](http://localhost:3000)
 ### Deploy en Vercel
 
 1. Conecta el repositorio en [vercel.com](https://vercel.com)
-2. Añade las variables de entorno `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+2. Añade las variables de entorno `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
 3. Deploy automático
 
 ## Estructura del proyecto

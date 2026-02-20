@@ -37,7 +37,7 @@ export default async function EstudiarPage() {
           </code>{" "}
           y{" "}
           <code className="rounded bg-slate-800 px-1.5 py-0.5 font-mono text-sm">
-            NEXT_PUBLIC_SUPABASE_ANON_KEY
+            NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
           </code>{" "}
           a tu .env.local, y ejecuta{" "}
           <code className="rounded bg-slate-800 px-1.5 py-0.5 font-mono text-sm">
