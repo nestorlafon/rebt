@@ -69,3 +69,7 @@ Abre [http://localhost:3000](http://localhost:3000)
 ## Ampliar contenido
 
 Puedes añadir más artículos, ITCs y preguntas ejecutando SQL en el editor de Supabase. La estructura está en `supabase/migrations/`.
+
+## Documentación
+
+Documentación técnica detallada: [docs/README.md](docs/README.md)

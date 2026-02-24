@@ -1,0 +1,2 @@
+# Exclude docs from Vercel deployment - technical docs stay in repo only
+docs

@@ -1,0 +1,13 @@
+project: rebt
+repo:
+    default_base: main
+    branch_pattern: ^ralph/[a-zA-Z0-9._-]+$
+    branch_prefix: ""
+paths:
+    tasks_dir: .ralph/tasks
+    skills_dir: .ralph/skills
+quality_checks:
+    - npx next build
+    - npx eslint
+    - npx tsc --noEmit
+agent: cursor
